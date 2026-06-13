@@ -6,8 +6,8 @@ import pandas as pd
 
 st.set_page_config(page_title="sales prediction", page_icon=":chart_with_upwards_trend:",layout="wide")
 
-st.title("Sales Prediction App")
-st.write("Enter the details of all TV, Radio, and Newspaper advertising budgets to predict sales.")
+st.title("Sales Prediction")
+st.write("Enter the details for all TV, Radio, and Newspaper advertising budgets to predict sales.")
 
 model = joblib.load("models/linear_regression_model.pkl")
 
